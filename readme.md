@@ -14,3 +14,11 @@ This template is designed to assist administrators and security personnel in the
 
 Tracking revoked SSH keys and identifying stale keys are important security practices in maintaining the integrity and security of a system. </br>
 Regularly auditing and updating SSH key configurations are considered best practices in key management. It ensures that the organization is proactively managing access controls and reducing the likelihood of security incidents. </br>
+
+## How to Run
+- To check revoked keys,
+```python3 check_revoked_keys.py```
+
+- To check users attributes definition validity,
+```python3 check_users.attribute.py```
+
