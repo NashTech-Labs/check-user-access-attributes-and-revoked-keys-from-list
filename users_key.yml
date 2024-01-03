@@ -1,0 +1,20 @@
+---
+service_name:
+  - key-name
+
+infra_access_users_all_dev: "{{
+  service_name }}"
+
+users_ssh_keys_staled: ["key2"]
+
+users:
+  - name: key-name
+    description: "provide description"
+    uid: 1
+    ssh_pubkeys:
+      - ssh-rsa keyvalue1
+    ssh_revokedkeys:
+      - ssh-rsa keyvalue2
+    expiry:
+      - 2023
+  
