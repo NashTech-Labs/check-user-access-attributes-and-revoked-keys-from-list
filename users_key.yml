@@ -16,5 +16,5 @@ users:
     ssh_revokedkeys:
       - ssh-rsa keyvalue2
     expiry:
-      - 2023
+      - 2023 # this will throw error as it is unexpected attribute in validation definition
   
